@@ -2,11 +2,11 @@
 description: 认识ollydbg
 ---
 
-# ollydbg动态调试第一篇
+# ollydbg动态调试第一章
 
 ### OllyDBG 窗口介绍 <a href="#ollydbg-chuang-kou-jie-shao" id="ollydbg-chuang-kou-jie-shao"></a>
 
-<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption><p>初始窗口</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4) (1).png" alt=""><figcaption><p>初始窗口</p></figcaption></figure>
 
 `OllyDBG` 中各个窗口的功能如上图：
 
@@ -17,8 +17,6 @@ description: 认识ollydbg
 * 堆栈窗口：显示目前线程的堆叠。
 
 要调整上面各个窗口的大小的话，只需左键按住边框拖曳，等调整好了，重新启动一下就可以生效了。
-
-
 
 ### 设定UDD、插件路径 <a href="#she-ding-udd-wai-gua-lu-jing" id="she-ding-udd-wai-gua-lu-jing"></a>
 
@@ -32,15 +30,15 @@ description: 认识ollydbg
 
 选项 -> 调试选项，新手一般不需变更这里的选项，默认已配置好，可以直接使用。 建议在对已比较熟的情况下再来进行配置。 上面那个异常标签中的选项经常会在脱壳中用到，建议在有一定除错基础后学脱壳时再配置这里。
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 右键菜单： <a href="#you-jian-xuan-chan" id="you-jian-xuan-chan"></a>
 
 除了直接启动来调试外，我们还可以把新增到资源管理器右键菜单，这样我们就可以直接在 .exe及.dll 文件上点右键选取「用Ollydbg开启」菜单来进行除错。 要把添加到资源管理器右键菜单，只需点击菜单选项 -> 添加到右键菜单，将会出现一个对话框，先点击「加入Ollydbg 到系统资源管理器菜单」，再点击「完成」按钮即可。 要从右键菜单中移除也很简单，还是这个对话框，点击「从系统资源管理器菜单移除 Ollydbg」，再点击「完成」就行了。
 
-<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>右键快速打开OD</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption><p>右键快速打开OD</p></figcaption></figure>
 
 ### 插件：
 
@@ -58,7 +56,7 @@ OllyDBG支持插件功能，插件的安装也很简单，只要把下载的插�
 
 一般情况下我们选第一种模式。 比如我们选中一个 来调试，通过菜单 文件 -> 打开 来加载这个程序，中显示的内容将会如下图：
 
-<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 基本快捷键： <a href="#ji-ben-kuai-jie-jian" id="ji-ben-kuai-jie-jian"></a>
 
@@ -91,9 +89,7 @@ OllyDBG支持插件功能，插件的安装也很简单，只要把下载的插�
 * 显示断点窗口（ 1）`Alt+B`)
 * 启用调试选项窗口（ 1）`Alt+O`)
 
-
-
 注：以上参考了\
 [看雪论坛](https://bbs.pediy.com/) 的 [OllyDBG 入门系列（一）-认识OllyDBG](https://bbs.pediy.com/thread-21284.htm)
 
-\
+\\
